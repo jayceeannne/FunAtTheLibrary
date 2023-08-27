@@ -5,8 +5,6 @@
 
 
 //------------------------- Variables -------------------------//
-
-
 // Initialize two new variables, "title", and "pages", and assign values to them with
 // a book's title and page count.
 
@@ -14,7 +12,6 @@ var title = "Harry Potter";
 var pages = 100
 
 console.log(title , pages);
-
 
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
@@ -51,12 +48,7 @@ if (isShortStory < 25){
     console.log(false)
 }
 
-
-
-
 //------------------------- Conditionals -------------------------//
-
-
 // Express the following in code: If the variable "pages" is less than 1000 log
 // the statement 'I could read that in a day!', otherwise, log the statement 
 // 'Ok, maybe I could read that in a day and a half'
@@ -65,7 +57,6 @@ if (pages < 1000) {
 } else{
     console.log("Ok, maybe I could read that in a day and a half.")
 }
-
 
 // Express the following in code: If the variable "isFavorite" is true,
 // log the statement 'My favorite book is [title]!'. Otherwise, log the
@@ -77,10 +68,7 @@ if (isFavorite === true) {
     console.log(`I recently read the ${title} book.`)
 }
 
-
 //------------------------- Arrays -------------------------//
-
-
 // Create a new variable "books" and assign it to an Array of 5 different
 // book titles, represented by their names as Strings.
 var books = ["twilight", "new moon", "eclipse", "breaking dawn", "midnight sun"]
@@ -98,7 +86,6 @@ var belowTwoHundred = [10, 20, 30, 40, 50,60, 70, 80, 90, 100, 150, 190]
 console.log(belowTwoHundred[4])
 
 //------------------------- Objects -------------------------//
-
 // Create a new variable "dictionary" and assign to it an object literal with two
 // keys: name, and hasThesaurus. The value for name should the string 'Webster's', and
 // the value for hasThesaurus should be false
